@@ -1,53 +1,70 @@
-# Sushiswap SDK
+# SushiSwap SDK Monorepo
 
-In-depth documentation on this SDK is available at [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
+## Prerequisites
 
-This modifies uniswap-sdk's UniswapV2Factory address. The new address for sushiswap is  `0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac`.
+- Yarn v3 (If unfamilair consult https://yarnpkg.com/getting-started/install to get started and familiarise yourself)
+- Node v14 and above
 
-## Running tests
+## Versioning (Canary)
 
-To run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.
+yarn lerna version --no-changelog --no-git-tag-version --preid canary --yes
 
-First clone the repository:
+## Publishing (Canary)
 
-```sh
-git clone https://github.com/sushiswap/sushiswap-sdk.git
+yarn run lerna publish from-package --dist-tag canary --no-git-reset --no-verify-access --preid canary --yes
+
+## Core SDK
+
+### Testing
+
+```sh 
+yarn workspace @sushiswap/core-sdk test
 ```
 
-Move into the sushiswap-sdk working directory
+### Build
 
-```sh
-cd sushiswap-sdk/
+```sh 
+yarn workspace @sushiswap/core-sdk build
 ```
 
-Install dependencies
+## Limit Order SDK
 
-```sh
-yarn install
+### Testing
+
+```sh 
+yarn workspace @sushiswap/limit-order-sdk test
 ```
 
-Run tests
+### Build
 
-```sh
-yarn test
+```sh 
+yarn workspace @sushiswap/limit-order-sdk build
 ```
 
-You should see output like the following:
+## Trident SDK
 
-```sh
-yarn run v1.22.4
-$ tsdx test
- PASS  test/constants.test.ts
- PASS  test/pair.test.ts
- PASS  test/fraction.test.ts
- PASS  test/miscellaneous.test.ts
- PASS  test/entities.test.ts
- PASS  test/trade.test.ts
+### Testing
 
-Test Suites: 1 skipped, 6 passed, 6 of 7 total
-Tests:       3 skipped, 82 passed, 85 total
-Snapshots:   0 total
-Time:        5.091s
-Ran all test suites.
-✨  Done in 6.61s.
+```sh 
+yarn workspace @sushiswap/trident-sdk test
+```
+
+### Build
+
+```sh 
+yarn workspace @sushiswap/trident-sdk build
+```
+
+## Tines SDK
+
+### Testing
+
+```sh 
+yarn workspace @sushiswap/tines test
+```
+
+### Build
+
+```sh 
+yarn workspace @sushiswap/tines build
 ```
