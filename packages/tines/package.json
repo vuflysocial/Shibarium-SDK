@@ -1,5 +1,5 @@
 {
-  "name": "@sushiswap/tines",
+  "name": "@shibarium/tines",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   ],
   "module": "dist/tines.esm.js",
   "repository": {
-    "url": "sushiswap/sdk",
+    "url": "shibarium/sdk",
     "directory": "packages/tines"
   },
   "publishConfig": {
@@ -34,5 +34,5 @@
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "20e8e8af706f6c2cceb1bcc10a1c8bcad6d29a98"
+  "gitHead": "056506de4312d7fa6b0d610380c424e09356b7f4"
 }
