@@ -10,7 +10,7 @@
     "publish": {
       "npmClient": "npm",
       "allowBranch": [
-        "canary"
+        "main"
       ],
       "registry": "https://registry.npmjs.org/"
     }
