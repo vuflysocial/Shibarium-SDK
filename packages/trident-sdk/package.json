@@ -1,6 +1,6 @@
 {
-  "name": "@shibarium/trident-sdk",
-  "version": "1.0.0",
+  "name": "@sushiswap/trident-sdk",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "module": "dist/trident-sdk.esm.js",
   "repository": {
-    "url": "shibarium/sdk",
+    "url": "sushiswap/sdk",
     "directory": "packages/trident-sdk"
   },
   "publishConfig": {
@@ -27,7 +27,7 @@
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/bignumber": "^5.4.0",
     "@sushiswap/core-sdk": "1.0.0-canary.123",
-    "@sushiswap/tines": "1.0.0",
+    "@sushiswap/tines": "1.0.1",
     "@sushiswap/trident": "1.0.0-canary.40",
     "tiny-invariant": "^1.1.0",
     "trident-preview": "npm:@sushiswap/trident@1.0.0-canary.36"

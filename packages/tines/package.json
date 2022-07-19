@@ -1,6 +1,6 @@
 {
-  "name": "@shibarium/tines",
-  "version": "1.0.0",
+  "name": "@sushiswap/tines",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "module": "dist/tines.esm.js",
   "repository": {
-    "url": "shibarium/sdk",
+    "url": "sushiswap/sdk",
     "directory": "packages/tines"
   },
   "publishConfig": {
