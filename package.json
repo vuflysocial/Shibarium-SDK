@@ -1,14 +1,14 @@
 {
   "name": "@shibarium/sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "🛠 An SDK for building applications on top of SushiSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/shibaswaparmy/Shibarium-SDK",
   "keywords": [
     "sushiswap",
     "ethereum",
