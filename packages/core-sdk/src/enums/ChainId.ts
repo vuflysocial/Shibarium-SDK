@@ -33,5 +33,6 @@ export enum ChainId {
   OPTIMISM = 10,
   KAVA = 2222,
   METIS = 1088,
-  SHIBARIUM= 7352,
+  SHIBARIUM = 7352,
+  PUPPYNET = 417
 }
