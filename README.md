@@ -1,4 +1,4 @@
-# SushiSwap SDK Monorepo
+# Shibar SDK Monorepo
 
 ## Prerequisites
 
