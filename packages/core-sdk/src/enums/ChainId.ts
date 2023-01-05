@@ -35,5 +35,5 @@ export enum ChainId {
   METIS = 1088,
   SHIBARIUM = 7352,
   PUPPYNET = 417,
-  PUPPYNET517 = 417
+  PUPPYNET517 = 517
 }

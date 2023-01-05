@@ -1,6 +1,6 @@
 {
-  "name": "@shibarium/core-sdk",
-  "version": "1.0.2-canary.0",
+  "name": "shibarium-get-chains",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "module": "dist/core-sdk.esm.js",
   "repository": {
-    "url": "shibarium/sdk",
+    "url": "git+https://github.com/shibarium/sdk.git",
     "directory": "packages/core-sdk"
   },
   "publishConfig": {
@@ -39,5 +39,17 @@
     "@types/big.js": "^6.1.0",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "03f06d8b9570fde00b2dafe9c8f624f3ec179577"
+  "bugs": {
+    "url": "https://github.com/shibarium/sdk/issues"
+  },
+  "homepage": "https://github.com/shibarium/sdk#readme",
+  "description": "get shibarium supported chains ",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "web3",
+    "chains"
+  ],
+  "author": "revinfotech"
 }
