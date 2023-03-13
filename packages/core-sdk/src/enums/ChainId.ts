@@ -36,4 +36,6 @@ export enum ChainId {
   SHIBARIUM = 7352,
   PUPPYNET = 417,
   PUPPYNET517 = 517
+  MELOCHIEDGE = 133
+  
 }
